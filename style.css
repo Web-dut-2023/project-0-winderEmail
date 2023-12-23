@@ -1,0 +1,125 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+/* ul li links */
+ul.upper-right-links{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.upper-right-links li {
+    float: right;
+    margin : 5px;
+}
+
+ul.upper-right-links a{
+    margin-top: 10px;
+    display: block;
+    text-decoration: none;
+    color: #212121;
+    font-size: 13px;
+}
+
+.upper-right-links a:hover{
+    text-decoration: underline;
+}
+
+.upper-right-links li img {
+    width: 90px;
+    margin-right: 3px;
+}
+
+/*  BOX  */
+
+
+.google-search {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 500px;
+}
+
+.google-logo {
+    margin-bottom: 20px;
+}
+
+/*Buttons */
+
+.submit-button {
+    display: inline-block;
+    border: none;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
+ 
+.submit-button:hover {
+    border: #dadce0 0.2px solid;
+}
+
+/* Search bar */
+
+.search-bar {
+    border: #dadce0 2px solid;
+    border-radius: 25px;
+    width: 540px;
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+.search-bar:hover {
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+
+
+
+.search-bar:focus {
+    outline: none;
+}
+
+
+
+
+/*  SPAN */
+.google-logo span {
+    color: #4285f4;
+    margin-left: -60px;
+}
+
+
+/*  advanced page */
+
+.adv-nav{
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+
+.adv-nav img{
+    width: 90px;
+    margin: 13px;
+}
+
+.red{
+    font-weight: bold;
+    display: block;
+    padding: 0;
+    margin-top: 25px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #d93025;
+}
+
+
+hr{
+    color: #f1f1f1;
+    opacity: 0.5;
+}
